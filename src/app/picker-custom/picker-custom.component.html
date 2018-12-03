@@ -1,0 +1,9 @@
+    
+    <div fxLayout="row" class="div-bordered" >
+        <mat-icon  class="margin-right" (click)="picker.open()">date_range</mat-icon> 
+        <input style="border: none;text-align: center; color: rgba(145,42,97,0.8);" matInput [matDatepicker]="picker"/>
+        <mat-icon class="margin-left" (click)="picker.open()">arrow_drop_down</mat-icon> 
+        <mat-datepicker #picker></mat-datepicker>
+    </div>
+    
+ 

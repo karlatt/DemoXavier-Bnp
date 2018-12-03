@@ -1,0 +1,8 @@
+<div style="width: 350px">
+    <input style="width: 350px" matInput placeholder="Entrez le début d'une adresse" aria-label="Adresse" [matAutocomplete]="auto" [formControl]="stateCtrl">
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let state of filteredStates | async" [value]="state.city">
+        <span>{{state.label}}</span> 
+      </mat-option>
+    </mat-autocomplete>
+</div>

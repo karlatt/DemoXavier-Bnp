@@ -1,0 +1,13 @@
+.mat-option {
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+    background: rgba(200,200,200,0.7);
+}
+
+input.mat-input-element:focus{
+    outline: 2px solid rgba(145,42,97,0.8);;   
+    color: rgba(145,42,97,0.8);
+
+}

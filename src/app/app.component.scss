@@ -1,0 +1,109 @@
+.back{
+    background-image: url("src/assets/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+   
+
+}
+  .form-container
+  {
+      width: 850px;
+      padding: 15px;
+      background-color: white;
+      margin: 50px auto;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      border: none;
+      -webkit-border-radius: 7px;
+      border-radius: 7px;
+
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      -webkit-box-shadow: 4px 4px 6px 1px rgba(0,0,0,0.4) ;
+      box-shadow: 4px 4px 6px 1px rgba(0,0,0,0.4) ;
+  }
+
+  .left-justified
+  {
+      margin-top: 5px;
+      margin-left: 40px;
+      margin-right: 20px;
+  }
+
+  .title
+  {
+      font-weight: 600;
+  }
+
+  .sourced-input {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 3px;
+    border: 1px solid #544f4f;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+
+    color: rgba(82,85,86,1);
+    text-align: justify;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(232,232,232,0.85);
+    -webkit-box-shadow: 2px 2px 1px 0 rgba(10,9,9,0.15) ;
+    box-shadow: 2px 2px 1px 0 rgba(10,9,9,0.15) ;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  }
+.row-cont
+{
+    width: 100%;
+}
+
+h5{
+   margin: 30px 190px;
+    border-top: 1px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: #544f4f;
+    text-align: center;
+}
+
+input:focus{
+    outline: 2px solid rgba(145,42,97,0.8);;   
+    color: rgba(145,42,97,0.8);
+  }
+
+  .mat-checkbox-layout
+ {
+    font-size: x-small;
+    font-weight: 800;
+    font-family: inherit;
+}
+
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+    background-color:   rgba(0, 109, 67, 0.8) !important;
+}
+.mat-raised-button.mat-primary {
+    background-color: rgba(0, 109, 67, 0.8) !important;
+    color: #fff !important;
+}
+.mat-raised-button
+{
+    border-width: 1px;
+    border-style: outset;
+    border-image: initial;
+     color: rgba(0, 109, 67, 0.8) !important;
+    border-color: rgba(0, 109, 67, 0.8) !important;
+}
+.just-border
+{
+width: 90%;
+margin: -10px 20px 20px 20px;
+height: 2px;
+background-color: rgba(200,200,200,1);
+}

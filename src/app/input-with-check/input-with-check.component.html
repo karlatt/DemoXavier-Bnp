@@ -1,0 +1,7 @@
+
+<div  fxLayout="column" fxLayoutGap="5px">
+<labelled-input labelContent="Site Web">
+    <mat-checkbox #check>Mon entreprise n'a pas de site Web</mat-checkbox>
+    <input [disabled]="check.checked" type="text" placeholder="www.monentreprise.com" />
+  </labelled-input>
+</div>

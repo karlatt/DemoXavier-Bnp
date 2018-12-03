@@ -1,0 +1,8 @@
+ <div fxLayout="row">
+ <select >
+    <option *ngFor="let item of items" [value]="item.value">
+      {{item.viewValue}}
+    </option>
+  </select>
+<input type="number" class="number-input" [placeholder]="placeHolder">
+</div>

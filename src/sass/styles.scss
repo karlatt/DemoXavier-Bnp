@@ -1,0 +1,13 @@
+@import './variables';
+@import './mixins';
+@import './fonts';
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: $primary-color;
+}
+.italic{
+    font-style: italic;
+    font-size: 0.9em;
+}
